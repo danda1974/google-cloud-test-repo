@@ -13,7 +13,7 @@ public class HelloController {
     HelloRepository repository;
     @GetMapping("/hello")
     public String sayHello() {
-        return "Guten Tag. Wie geht es dir? Mein Name ist Daniela.";
+        return "Guten Tag. Mein Name ist Daniela.";
     }
 }
 
